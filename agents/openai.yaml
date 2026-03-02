@@ -1,0 +1,40 @@
+{
+  "name": "ticktick-sync",
+  "display_name": "TickTick 双向同步",
+  "short_description": "自动同步待办事项到滴答清单",
+  "default_prompt": "帮我管理待办事项",
+  "icon": "✅",
+  "color": "#4CAF50",
+  "category": "productivity",
+  "tags": ["todo", "ticktick", "task", "productivity"],
+  "version": "2.0.0",
+  "author": "memU",
+  "description": "TickTick 双向同步 Skill。当用户说'添加待办事项'、'帮我记录一个事情'、'提醒我'等时，自动同步到滴答清单；当用户说'完成'、'标记完成'等时，自动标记滴答清单中对应任务为已完成。支持任务创建、完成、查询、优先级设置、项目分类等完整功能。",
+  "capabilities": [
+    "创建任务",
+    "完成任务",
+    "查询任务",
+    "设置优先级",
+    "项目分类",
+    "自然语言解析",
+    "知识图谱集成"
+  ],
+  "triggers": [
+    "添加待办",
+    "帮我记录",
+    "提醒我",
+    "记一下",
+    "待办事项",
+    "todo",
+    "任务",
+    "完成",
+    "标记完成",
+    "搞定"
+  ],
+  "requirements": [
+    "TickTick 账号",
+    "TickTick Access Token"
+  ],
+  "setup_time": "5 分钟",
+  "difficulty": "简单"
+}
